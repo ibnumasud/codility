@@ -4,3 +4,12 @@ github.com/ibnumasud/codility/array/cyclycrotation.go:18.2,18.15 1 1
 github.com/ibnumasud/codility/array/cyclycrotation.go:7.32,9.3 1 0
 github.com/ibnumasud/codility/array/cyclycrotation.go:9.3,12.45 2 1
 github.com/ibnumasud/codility/array/cyclycrotation.go:12.45,15.4 2 3
+github.com/ibnumasud/codility/array/oddoccurancearray.go:6.37,9.31 3 1
+github.com/ibnumasud/codility/array/oddoccurancearray.go:15.2,16.15 2 1
+github.com/ibnumasud/codility/array/oddoccurancearray.go:9.31,11.19 2 3
+github.com/ibnumasud/codility/array/oddoccurancearray.go:11.19,13.4 1 1
+github.com/ibnumasud/codility/array/oddoccurancearray.go:19.39,21.28 2 1
+github.com/ibnumasud/codility/array/oddoccurancearray.go:30.2,30.21 1 1
+github.com/ibnumasud/codility/array/oddoccurancearray.go:21.28,23.12 2 7
+github.com/ibnumasud/codility/array/oddoccurancearray.go:23.12,25.4 1 4
+github.com/ibnumasud/codility/array/oddoccurancearray.go:25.4,28.4 1 3
