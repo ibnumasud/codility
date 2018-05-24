@@ -26,4 +26,14 @@ var _ = Describe("Timecoplexity", func() {
 			})
 		})
 	})
+
+	Describe("Tape equlibirium", func() {
+		given := []int{3, 1, 2, 4, 3}
+		expected := 1
+		Context("diberi array bagisesuai jumlah yg paling kecil", func() {
+			It("return 1", func() {
+				Expect(timecomplexity.TapeEquilibirium(given)).To(Equal(expected))
+			})
+		})
+	})
 })
