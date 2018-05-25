@@ -37,3 +37,29 @@ func MissingInteger(A []int) int {
 	}
 	return minimum
 }
+
+//PermCheck Function
+func PermCheck(A []int) int {
+	var result int
+	temp := make(map[int]int)
+	for _, a := range A {
+		temp[a] = 0
+	}
+
+	for i := 1; i <= len(temp); i++ {
+		_, exist := temp[i]
+		if exist {
+			temp[i]++
+			if temp[i] > 1 {
+				result = 0
+				break
+			} else {
+				result = 1
+			}
+		} else {
+			result = 0
+			break
+		}
+	}
+	return result
+}

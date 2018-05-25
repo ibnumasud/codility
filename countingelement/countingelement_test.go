@@ -37,5 +37,21 @@ var _ = Describe("Countingelement", func() {
 			})
 		})
 	})
+	Describe("Permutation Check", func() {
+		Context("Normal case ketika permutation betul", func() {
+			given := []int{4, 1, 3, 1, 2}
+			expected := 1
+			It("true karena ada permutation", func() {
+				Expect(expected).To(Equal(countingelement.PermCheck(given)))
+			})
+		})
+		Context("tidak ada permutation", func() {
+			given := []int{4, 1, 3}
+			expected := 0
+			It("false karena tidak ada mutation", func() {
+				Expect(expected).To(Equal(countingelement.PermCheck(given)))
+			})
+		})
+	})
 
 })
