@@ -8,4 +8,7 @@ before_install:
   - go get -u github.com/onsi/gomega/...     # fetches the matcher library
 
 script:
-  - ginkgo -r -v -cover
+  - ginkgo -r -v -cover -coverprofile=coverage.txt -outputdir=. -covermode=atomic
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
